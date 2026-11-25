@@ -1,0 +1,6 @@
+# SkillGap IQ | Day 11
+Indian data-job market intelligence using Python, SQLite, dictionary-based NLP, TF-IDF cosine similarity and Streamlit. Historical public Naukri-derived sample: https://github.com/Aashutosh-Shejul/naukri-job-market-analysis (staging_raw.csv). Source reports scraped postings; independent provenance and redistribution rights not verified. Raw data is not bundled. Download at runtime; alternatively save source CSV as data.csv. Do not republish raw listings unless permitted.
+
+Run `pip install -r requirements.txt`, `python analysis.py`, `streamlit run app.py`. For screenshots install Chromium with `python -m playwright install chromium`, then run `python capture.py` while server is running. Colab notebook automates these steps.
+
+20 SQLite queries, audit, cleaned records and computed findings are saved in outputs. Salary only parsed for explicit lakh/LPA patterns; missing values not imputed. Location labels may contain multiple cities. Minimum experience <=2 is a proxy, not proof of fresher eligibility. Work mode only explicit labels. Skill extraction uses a limited vocabulary, not exhaustive requirements. Similarity is not likelihood of hire. No live openings or market-wide extrapolation.

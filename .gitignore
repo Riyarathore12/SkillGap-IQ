@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.env
+*.log
+.ipynb_checkpoints/
+.venv/
+*.sqlite
+*.db
+data.csv
+outputs/jobs.csv
+outputs/skills.csv
